@@ -1,0 +1,32 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mat-typography{
+  width: 500px;
+  height: 550px;
+}
+
+.input-product{
+display: grid;
+ grid-template-columns: 100%; /* Aquí le estoy dando un ancho al primer div un 20%, al segundo div un 80% */
+ grid-gap: 20px;
+}
+.button{
+  background-color: #0e73d1;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    width: 120px;
+    height: 35px;
+   margin-left: 140px;
+}
+
+.btn{
+justify-content:center;
+}
